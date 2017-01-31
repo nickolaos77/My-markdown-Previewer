@@ -1,0 +1,16 @@
+{
+  "name": "markdownpreviewer",
+  "version": "1.0.0",
+  "description": "Simple react App for Freecodecamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build",
+    "build": "webpack -d && webpack-dev-server --content-base src/ --inline --hot --port 1234"
+  },
+  "author": "Nick Papasavvas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
